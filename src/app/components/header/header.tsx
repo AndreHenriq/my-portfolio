@@ -3,8 +3,13 @@ import "./header.scss"
 
 export default function Header() {
     return (
-        <div>
-            <div className='header'>
+        <div className='header'>
+            <div>
+                <h1>Hi, I'm 👋🏻
+                <p>André Comar!</p>
+                </h1>
+                <h2>Fullstack Developer</h2>
+            </div>
             <Image
                 src="/eu.jpg"
                 alt="perfil"
@@ -12,13 +17,6 @@ export default function Header() {
                 height={204}
                 priority
             />
-                <div>
-                    <h1>Hi, I'm 
-                    <p>André Comar</p>
-                    </h1>
-                    <h2>Fullstack Developer</h2>
-                </div>
-            </div>
         </div>
     )
 }

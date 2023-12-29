@@ -1,13 +1,12 @@
-import type { Metadata } from 'next'
-import { Poppins } from 'next/font/google'
 import './globals.scss'
+import { Poppins } from 'next/font/google'
 
 const inter = Poppins({ 
   subsets: ['latin'], 
   weight:['400','500','600']
 })
 
-export const metadata: Metadata = {
+export const metadata = {
   title: 'André Comar',
   description: 'Software engneering enthusiast',
 }

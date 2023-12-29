@@ -1,12 +1,12 @@
 .container{
     padding: 40px 32px;
     display: grid;
-    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(4, auto);
     grid-template-areas: 
-    "header",
-    "buttons"
-    "experience"
-    "info";
+    'header'
+    'experience'
+    'buttons'
+    'info';
 }
 
 @media (min-width: 768px){
@@ -19,9 +19,8 @@
         justify-items: start;
         justify-content: space-between;
         grid-template-areas: 
-        "header info",
-        "experience empty"
-        "empty2 buttons"
-        "info";
+        "header info"
+        "experience empty-1"
+        "empty-2 buttons";
     }
 }
