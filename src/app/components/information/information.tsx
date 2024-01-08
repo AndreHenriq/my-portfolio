@@ -1,4 +1,4 @@
-import { SectionTitle } from "../sectionTitle/sectionTitle"
+import { SectionTitle } from "../sectionTitle/section-title"
 import "./information.scss"
 
 export function Info(){
