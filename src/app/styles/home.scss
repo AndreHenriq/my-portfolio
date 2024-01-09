@@ -8,7 +8,7 @@
     'header'
     'buttons'
     'experience'
-    'tech'
+    'experience-tech'
     'info';
 
     .buttons{
@@ -57,6 +57,6 @@
         grid-template-areas: 
         "header info"
         "experience empty-1"
-        "empty-2 buttons";
+        "experience-tech buttons";
     }
 }

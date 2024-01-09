@@ -1,4 +1,5 @@
 import { Experience } from './components/experience/experience'
+import { ExperienceTech } from './components/experience/experience-tech'
 import Header from './components/header/header'
 import { EmailIcon } from './components/icons/email-icon'
 import{Info} from './components/information/information'
@@ -10,6 +11,7 @@ export default function Home() {
     <main className='container'>
       <Header/>
       <Experience/>
+      <ExperienceTech/>
       <Info/>
       <div className='buttons'>
         <SocialBtns/>
