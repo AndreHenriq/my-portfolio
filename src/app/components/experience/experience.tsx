@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 import "./experience.scss"
 import { SectionTitle } from "../sectionTitle/section-title"
 
@@ -10,6 +12,12 @@ export function Experience(){
             responsible for keeping machines, labs, servers and network working properly
         </p>
         <div className="experience-time">
+            <div>
+                <div className="infos"><Image src="/java.png" alt="Java Logo" width={40} height={40} priority /></div>
+                <div><Image src="/react.png" alt="React Logo" width={40} height={40} priority /></div>
+                <div><Image src="/js.png" alt="JS Logo" width={40} height={40} priority /></div>
+                <div><Image src="/ts.png" alt="ts Logo" width={40} height={40} priority /></div>
+            </div>
 
         </div>
       </div>
