@@ -6,7 +6,7 @@ import "./social-btns.scss"
 export function SocialBtns(){
     return(
         <div className="social">
-            <a href="www.linkedin.com/in/andré-comar-3482a8153">
+            <a href="https://www.linkedin.com/in/andré-comar-3482a8153">
                 <LinkedInIcon/>
             </a>
             <a href="https://github.com/AndreHenriq">
