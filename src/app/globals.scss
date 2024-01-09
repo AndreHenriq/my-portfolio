@@ -18,5 +18,5 @@ body{
 }
 
 body{
-  background-color: var(--bg-primary);
-}
+  background: rgb(44,44,44);
+  background: linear-gradient(45deg, rgba(44,44,44,1) 1%, rgba(32,8,64,1) 26%, rgba(44,44,44,1) 85%); }
